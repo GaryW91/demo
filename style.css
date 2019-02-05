@@ -90,7 +90,7 @@ body {
   color: #3590D5;
 }
 .navbar.solid {
-  background: rgba(0, 0, 0, 0.7)!important;
+  background: rgba(0, 0, 0, 0.8)!important;
   transition: background-color 1s ease 0s;
 }
 
