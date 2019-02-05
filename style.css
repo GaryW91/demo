@@ -413,6 +413,12 @@ footer h3 {
 .form-group select {
   color: #b2b5b8!important;
 }
+
+.form-group select{
+  -webkit-appearance: none; 
+-moz-appearance: none;
+appearance: none;
+}
 input.btn {
   cursor: pointer;
 }
