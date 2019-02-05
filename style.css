@@ -403,6 +403,9 @@ footer h3 {
   border: .15rem solid #666b71;
   color: white!important;
   font-size: 1.1rem;
+  -webkit-appearance: none; 
+-moz-appearance: none;
+appearance: none;
 }
 .form-control:focus {
   background: #53595f;
