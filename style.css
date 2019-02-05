@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 /*--- Start Nuno 5 Page Version Style --*/
 
@@ -26,7 +26,7 @@ h3.title-heading {
 .title-heading-underline {
   width: 5rem;
   height: .2rem;
-  background-color: #1EBBA3;
+  background-color: #3590D5;
 }
 /* Remove white space under title heading
 #title-heading .row {
@@ -50,8 +50,8 @@ body {
 
 /*--- Nav Scrolling Offset --*/
 .offset:before {
-  height: 4rem;
-  margin-top: -4rem;
+  height: 5rem;
+  margin-top: -2rem;
   content: "";
   display: block;
 }
@@ -72,7 +72,7 @@ body {
   transition: background-color .5s ease 0s;
 }
 .navbar-brand img {
-  height: 2rem;
+  height: 5rem;
 }
 .svg-inline--fa.fa-w-14 {
   color: white;
@@ -87,7 +87,7 @@ body {
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: #1ebba3;
+  color: #3590D5;
 }
 .navbar.solid {
   background: rgba(0, 0, 0, 0.7)!important;
@@ -150,8 +150,8 @@ body {
   margin: 1rem;
 }
 .btn-turquoise {
-  border-color: #1EBBA3;
-  background-color: #1EBBA3;
+  border-color: #3590D5;
+  background-color: #3590D5;
   color: white;
 }
 .btn-turquoise:hover,
@@ -175,14 +175,14 @@ h3.heading {
 .heading-underline {
   width: 3rem;
   height: .2rem;
-  background-color: #1EBBA3;
+  background-color: #3590D5;
   margin: 0 auto 2rem;
 }
 .feature {
   text-align: center;
 }
 .feature .fa-layers {
-  color: #1EBBA3;
+  color: #3590D5;
   margin: 0 auto;
   width: 3.9rem;
   height: 6rem;
@@ -239,7 +239,7 @@ img.example-image {
 .pricing-column {
   background-color: white;
   padding: 2rem;
-  border-top: .2rem solid #1ebba3;
+  border-top: .2rem solid #3590D5;
   box-shadow: 0 0 .8rem rgba(0, 0, 0, 0.075);
   transition: transform .7s ease;
   overflow: hidden;
@@ -309,7 +309,7 @@ img.example-image {
   font-weight: 700;
 }
 .card h5 {
-  color: #1ebba3;
+  color: #3590D5;
 }
 .card p {
   border-top: .1rem solid rgba(0, 0, 0, .1);
@@ -318,7 +318,7 @@ img.example-image {
   margin: 1rem 0 1.5rem;
 }
 .card svg.svg-inline--fa {
-  color: #1ebba3!important;
+  color: #3590D5!important;
   font-size: 1.3rem;
   width: 2rem;
 }
@@ -327,13 +327,13 @@ img.example-image {
 }
 .owl-dot.active span,
 .owl-dot:hover span {
-  background: #1ebba3!important;
+  background: #3590D5!important;
 }
 
 /*============= SKILLS SECTION =============*/
 
 .skill h3 {
-  color: #1EBBA3;
+  color: #3590D5;
   font-size: 2.5rem;
   font-weight: 700;
   margin: 1rem 0 .5rem;
@@ -357,10 +357,10 @@ img.example-image {
 }
 blockquote .svg-inline--fa {
   margin: 1rem;
-  color: #1EBBA3;
+  color: #3590D5;
 }
 .clients-hr {
-  border-top: .05rem solid #1EBBA3;
+  border-top: .05rem solid #3590D5;
 }
 
 /*============= CONTACT SECTION =============*/
@@ -376,8 +376,8 @@ footer .row {
   padding: 1rem 2rem 3rem;
 }
 footer img {
-  height: 2rem;
-  margin: 1.5rem 0;
+  height: 4rem;
+  margin: .8rem 0;
 }
 footer a {
   color: white;
@@ -387,7 +387,7 @@ footer svg.svg-inline--fa {
   margin: 1.2rem .5rem 0 0;
 }
 footer svg.svg-inline--fa:hover {
-  color: #1ebba3!important;
+  color: #3590D5!important;
 }
 footer h3 {
   text-transform: uppercase;
