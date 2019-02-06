@@ -466,6 +466,12 @@ a.top-scroll:hover {
 
 /* Devices under 992px (lg) */
 @media (max-width: 991px) {
+  .caption img {
+   height: 8rem;
+   margin: 0 auto;
+   padding: 1rem;
+  }
+
   .caption h1 {
     font-size: 3.5rem;
     letter-spacing: .2rem;
@@ -486,6 +492,13 @@ a.top-scroll:hover {
 
 /* Devices under 768px (md) */
 @media (max-width: 767px) {
+
+  .caption img {
+    height: 8rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
   .caption h1 {
     font-size: 2.7rem;
     letter-spacing: .15rem;
@@ -522,6 +535,13 @@ a.top-scroll:hover {
 
 /* Devices under 576px (sm) */
 @media (max-width: 575px) {
+
+  .caption img {
+    height: 8rem;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
   .caption h1 {
     font-size: 1.9rem;
     letter-spacing: .1rem;
