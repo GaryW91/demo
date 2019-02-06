@@ -14,15 +14,15 @@ $fromEmail = 'noreply@email.com';
 $fromName = 'No Reply Email';
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'gazza_aye@hotmail.com';
-$sendToName = 'Gary';
+$sendToEmail = 'name@mydomain.com';
+$sendToName = 'New Website Email Message';
 
 // subject of the email
 $subject = 'New message from contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name:', 'email' => 'Email:', 'telephone' => 'Tel:', 'rooms' => 'Rooms:', 'status' => 'Status:', 'message' => 'Message:');
+$fields = array('name' => 'Name:', 'email' => 'Email:', 'message' => 'Message:');
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Successfully submitted - we will get back to you soon!';
