@@ -50,7 +50,7 @@ body {
 
 /*--- Nav Scrolling Offset --*/
 .offset:before {
-  height: 5rem;
+  height: 3.5rem;
   margin-top: -2rem;
   content: "";
   display: block;
@@ -61,6 +61,10 @@ body {
   padding: 1rem;
 }
 
+.company-color{
+  color: #3590D5;
+}
+
 /*============= NAVIGATION =============*/
 
 .navbar {
@@ -69,10 +73,11 @@ body {
   font-size: .9rem;
   font-weight: 700;
   letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 0.8)!important;
   transition: background-color .5s ease 0s;
 }
 .navbar-brand img {
-  height: 5rem;
+  height: 3.5rem;
 }
 .svg-inline--fa.fa-w-14 {
   color: white;
@@ -103,9 +108,16 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 38%;
+  top: 22%;
   z-index: 1;
 }
+
+.caption img {
+  height: 8rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 .caption h1 {
   color: white;
   font-size: 4.5rem;
@@ -113,7 +125,7 @@ body {
   font-weight: 700;
   letter-spacing: .3rem;
   text-shadow: .1rem .1rem .8rem black;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
 }
 .caption h3 {
   color: white;
@@ -121,7 +133,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   text-shadow: .1rem .1rem .5rem black;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 .btn-lg {
   border-width: medium;

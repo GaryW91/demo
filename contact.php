@@ -22,7 +22,7 @@ $subject = 'New message from contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Name:', 'email' => 'Email:', 'message' => 'Message:');
+$fields = array('name' => 'Name:', 'email' => 'Email:', 'telephone' => 'Tel:', 'rooms' => 'Rooms:', 'status' => 'Status:', 'message' => 'Message:');
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Successfully submitted - we will get back to you soon!';
@@ -42,7 +42,7 @@ try
     
     if(count($_POST) == 0) throw new \Exception('Form is empty');
     
-    $emailTextHtml = "<h3>New message from the Nuno Theme:</h3><hr>";
+    $emailTextHtml = "<h3>New message from presentingurproperty:</h3><hr>";
     $emailTextHtml .= "<table>";
 
     foreach ($_POST as $key => $value) {
@@ -52,7 +52,7 @@ try
         }
     }
     $emailTextHtml .= "</table><hr>";
-    $emailTextHtml .= "<p>Have a great day!<br><br>Sincerely,<br><br>Nuno Theme</p>";
+    $emailTextHtml .= "<p>Have a great day!<br><br>Sincerely,<br><br>presentingurproperty</p>";
     
     $mail = new PHPMailer;
 
