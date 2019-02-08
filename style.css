@@ -488,17 +488,17 @@ a.top-scroll:hover {
   }
 
   .caption h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     letter-spacing: .15rem;
     padding-bottom: .6rem;
   }
   .caption h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-bottom: 1rem;
   }
   .btn-lg {
     padding: .6rem 1.1rem;
-    font-size: .8rem;
+    font-size: .9rem;
   }
   .narrow h1 {
     font-size: 1.8rem;
@@ -525,23 +525,23 @@ a.top-scroll:hover {
 @media (max-width: 575px) {
 
   .caption img {
-    height: 8rem;
+    height: 9rem;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 
   .caption h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: .1rem;
     padding-bottom: .5rem;
   }
   .caption h3 {
-    font-size: .8rem;
+    font-size: 1rem;
     padding-bottom: 1rem;
   }
   .btn-lg {
     padding: .4rem .9rem;
-    font-size: .8rem;
+    font-size: .9rem;
   }
   .narrow {
     width: 85%;
