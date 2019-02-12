@@ -103,6 +103,7 @@ body {
 .home-inner {
   background-image: url('img/house-staging.png');
 }
+
 .caption {
   width: 100%;
   max-width: 100%;
@@ -114,7 +115,7 @@ body {
 .caption img {
   height: 14rem;
   margin: 0 auto;
-  padding: 3rem;
+  padding: 1.5rem;
 }
 
 .caption h1 {
@@ -455,23 +456,23 @@ a.top-scroll:hover {
 /* Devices under 992px (lg) */
 @media (max-width: 991px) {
   .caption img {
-   height: 12rem;
+   height: 13rem;
    margin: 0 auto;
-   padding: 2rem;
+   padding: 1.5rem;
   }
 
   .caption h1 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     letter-spacing: .2rem;
-    padding-bottom: .8rem;
+    padding-bottom: 1rem;
   }
   .caption h3 {
-    font-size: 1.2rem;
-    padding-bottom: 1.2rem;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
   }
   .btn-lg {
     padding: .7rem 1.2rem;
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .narrow h1 {
     font-size: 2.1rem;
@@ -482,23 +483,23 @@ a.top-scroll:hover {
 @media (max-width: 767px) {
 
   .caption img {
-    height: 10rem;
+    height: 12rem;
     margin: 0 auto;
     padding: 1.5rem;
   }
 
   .caption h1 {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     letter-spacing: .15rem;
-    padding-bottom: .6rem;
+    padding-bottom: .9rem;
   }
   .caption h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding-bottom: 1rem;
   }
   .btn-lg {
     padding: .6rem 1.1rem;
-    font-size: .9rem;
+    font-size: 1rem;
   }
   .narrow h1 {
     font-size: 1.8rem;
@@ -525,18 +526,18 @@ a.top-scroll:hover {
 @media (max-width: 575px) {
 
   .caption img {
-    height: 9rem;
+    height: 11rem;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   .caption h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     letter-spacing: .1rem;
     padding-bottom: .5rem;
   }
   .caption h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-bottom: 1rem;
   }
   .btn-lg {
