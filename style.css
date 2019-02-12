@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
-/*--- Start Nuno 5 Page Version Style --*/
+/*--- Start  5 Page Version Style --*/
 
 .navbar.always-solid {
   background: rgba(0, 0, 0, 0.7)!important;
@@ -39,7 +39,7 @@ h3.title-heading {
   }
 }
 
-/*--- End Nuno 5 Page Version Style --*/
+/*--- End  5 Page Version Style --*/
 
 body {
   overflow-x: hidden;
@@ -108,7 +108,7 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 12%;
+  top: 15%;
   z-index: 1;
 }
 
@@ -458,7 +458,7 @@ a.top-scroll:hover {
 
   .caption{
     position: absolute;
-    top: 12%;
+    top: 15%;
   }
   .caption img {
    height: 13rem;
@@ -489,7 +489,7 @@ a.top-scroll:hover {
 
    .caption{
     position: absolute;
-    top: 12%;
+    top: 15%;
   }
 
   .caption img {
@@ -537,7 +537,7 @@ a.top-scroll:hover {
 
    .caption{
     position: absolute;
-    top: 12%;
+    top: 15%;
   }
 
   .caption img {
