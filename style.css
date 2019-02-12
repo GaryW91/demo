@@ -457,6 +457,7 @@ a.top-scroll:hover {
 @media (max-width: 991px) {
 
   .caption{
+    position: absolute;
     top: 12%;
   }
   .caption img {
@@ -487,6 +488,7 @@ a.top-scroll:hover {
 @media (max-width: 767px) {
 
    .caption{
+    position: absolute;
     top: 12%;
   }
 
@@ -534,6 +536,7 @@ a.top-scroll:hover {
 @media (max-width: 575px) {
 
    .caption{
+    position: absolute;
     top: 12%;
   }
 
