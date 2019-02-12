@@ -455,6 +455,10 @@ a.top-scroll:hover {
 
 /* Devices under 992px (lg) */
 @media (max-width: 991px) {
+
+  .caption{
+    top: 12%;
+  }
   .caption img {
    height: 13rem;
    margin: 0 auto;
@@ -481,6 +485,10 @@ a.top-scroll:hover {
 
 /* Devices under 768px (md) */
 @media (max-width: 767px) {
+
+   .caption{
+    top: 12%;
+  }
 
   .caption img {
     height: 12rem;
@@ -524,6 +532,10 @@ a.top-scroll:hover {
 
 /* Devices under 576px (sm) */
 @media (max-width: 575px) {
+
+   .caption{
+    top: 12%;
+  }
 
   .caption img {
     height: 11rem;
