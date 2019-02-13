@@ -425,7 +425,13 @@ footer h3 {
 
 input.btn {
   cursor: pointer;
+  background-color: #3590D5!important;
 }
+
+input.btn:hover{
+  background-color: #2a73aa!important;
+}
+
 hr.socket {
   border-top: .2rem solid #666b71;
   width: 100%;
